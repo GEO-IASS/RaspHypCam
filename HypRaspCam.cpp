@@ -9,7 +9,7 @@
 //09 Junio 2017		Se junto lo que se tenía con la opción de square aperture
 // 					y se optimizó la transmisión de datos
 //10 Octubre 2017	Se actualizó github
-
+//07 Noviembre 2017	Se actualizó autorun en github
 
 //
 // HELP
@@ -137,7 +137,7 @@ int main(int argc, char *argv[])
 	obtainIP(host);
 
 	//Obtains the camera's name
-	char camName[] = "IRis\0";
+	char camName[] = "IRis1117\0";
 	FILE* pipe;
 	std::string result;
 

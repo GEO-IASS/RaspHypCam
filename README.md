@@ -9,11 +9,15 @@ raspistill -q 100 -gc -ifx colourbalance -ifx denoise  -o test.RGB888 -t 8000 -s
 // INSTALL
 //------------------------------
 
+Open terminal
+
+cd Documents
+
 git clone https://github.com/JairoSalazarV/RaspHypCam
 
 cd RaspHypCam/
 
-g++ HypRaspCam.cpp -o HypRaspCam
+g++ HypRaspCam.cpp -o RaspHypCam
 
 sudo nano /etc/init.d/HypCamAutorun
 

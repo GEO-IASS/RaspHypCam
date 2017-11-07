@@ -1,3 +1,3 @@
 cd /home/pi/Documents/RaspHypCam/
 clear
-./HypRaspCam 51717
+./RaspHypCam 51717
